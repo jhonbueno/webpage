@@ -20,7 +20,7 @@
     right: 0;
   }
 
-  ul {
+  a {
     display: flex;
   }
 
@@ -29,16 +29,17 @@
     flex: 1;
   }
 
-  .nav-link a {
-    text-decoration: none;
+  #header-img{
+    margin-top: 100px;
   }
+
 </style>
 
 <body class="w3-container">
 
   <header id="header">
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" id="header-img" width="150">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" id="header-img" width="150" class="w3-image">
 
     <nav id="nav-bar" class="w3-bar w3-blue">
       <a class="nav-link w3-bar-item w3-button w3-hover-green" href="#">Home</a>
@@ -48,14 +49,12 @@
 
   </header>
 
-  <embed src="helloworld.swf" id="video">
+  <div class="w3-container"><embed src="http://techslides.com/demos/sample-videos/small.mp4" id="video"></div>
 
   <form action="https://www.freecodecamp.com/email-submit" id="form">
 
     <label for="email">Email</label>
     <input type="email" name="email" id="email" placeholder="Email">
-    <input type="submit" name="submit" id="submit" value="Submit">
-
     <input type="submit" name="submit" id="submit" value="Submit">
 
   </form>
